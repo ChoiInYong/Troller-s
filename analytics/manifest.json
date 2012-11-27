@@ -1,0 +1,16 @@
+{
+  "name": "Google Analytics Sample",
+  "version": "1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["launch.js"]
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "sandbox": {
+    "pages": ["embedded_ga_host.html"]
+  }
+}
